@@ -1,0 +1,163 @@
+*{ 
+	padding: 0; 
+	margin: 0;
+}
+
+
+
+body{
+	background-image: url(../images/pattern-background-desktop.svg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-color: hsl(225, 100%, 94%);
+}
+
+:root{
+	--color-parrafo: #A8A8A8E0;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.contenedor{
+	width: 30%;
+	margin-top: 30px;
+	background: #fff;
+	border-radius: 20px;x
+}
+
+.contenedor__img{
+	width: 100%;
+}
+img{
+	width: 100%;
+	object-fit: contain;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.titulo{
+	font-family: Acme;
+}
+
+.contenedor__content--content{
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 20px;
+}
+
+.contenedor__content{
+	font-size: 16px;
+	font-family: Calibri;
+}
+
+.contenedor__plan{
+	background: hsl(225, 100%, 98%);
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	grid-gap: 40px;
+	flex-direction: row;
+	border-radius: 10px;
+	flex-wrap: wrap;
+}
+
+.plan{
+	display: flex;
+	grid-gap: 10px;
+}
+
+.costo__plan{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.costo{
+	color: var(--color-parrafo);
+}
+
+.parrafo{
+	color: var(--color-parrafo);
+	margin: 0 30px;
+	text-align: center;
+}
+
+.titulo__plan{
+	font-family: Acme;
+}
+
+input[type="submit"]{
+	width: 100%;
+	height: 35px;
+	background: hsl(245, 75%, 52%);
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-family: Acme;
+	box-shadow: 0 10px 10px #CCCCCCFF;
+}
+
+.link__cancelacion{
+	text-decoration: none;
+	color: var(--color-parrafo);
+}
+
+@media screen and (max-width: 1024px){
+	.contenedor{
+		width: 40%;
+	}
+	.parrafo{
+		margin: 0 10px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.contenedor{
+		width: 50%;
+	}
+
+	.parrafo{
+		margin: 0 10px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.contenedor{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 425px){
+	.contenedor{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.contenedor{
+		width: 90%;	
+	}
+}
+
+
+
+
